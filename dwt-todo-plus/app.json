@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "dwt-todo-plus",
+    "slug": "dwt-todo-plus",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "entryPoint": "./App.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.anonymous.dwttodoplus"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "39500955-929e-40ef-8509-d57a3f439869"
+      }
+    }
+  }
+}
